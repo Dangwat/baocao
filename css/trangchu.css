@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?wght@1,300&family=Indie+Flower=swap');
 html, body{
-    font-family:Arial, Helvetica, sans-serif!important;
+    font-family:Verdana;
     font-size: 16px;
 }
 #se{
@@ -537,4 +537,11 @@ small{
 #mid .start span {
     padding: 0;
     color: #000;
+}
+
+/* TIN TỨC */
+
+.bg-light a:hover {
+    color: #000;
+    text-decoration: none;
 }
