@@ -112,6 +112,9 @@ function showgiohang_trangthanhtoan(){
             '<td>'+
                 '<div>'+ tt +'</div>'+
             '</td>'+
+            '<td>'+
+                '<button onlick= "xoasp(this)">Xóa</button>'+
+            '</td>'+
         '</tr>';
     }
     ttgh +='<tr>'+
