@@ -451,3 +451,61 @@ html {
 .bodysp {
     background:#FEC6D9;
 }
+
+
+
+.dangnhap1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .dangnhap1:before, .dangnhap1:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #000;
+    margin: auto;
+  }
+  .dangnhap1:before {
+    margin-right: 10px
+  }
+  .dangnhap1:after {
+    margin-left: 10px
+  }
+
+
+small{
+    color: black;
+}
+.dangnhap2 a{
+    height: 20px;
+    font-size: 17px;
+    
+    background: #ffffff80;
+    padding: 2px 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 4;
+    padding-left: 4;
+    border-top: 1px;
+    border-bottom:1px;
+    border-left: 1px;
+    border-right: 1px;
+    border:1px solid #fff;
+    line-height:75px;
+    box-shadow: 0 0 3px 0 #00000066;
+    text-shadow: 0 0 2px 0 #0000004d;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.dangnhap2 a:hover{
+    background-color: #ccc;
+    color: #fff;
+    text-decoration: none;
+}
+.qmk{
+    
+    margin-left: 100px;
+}
+
