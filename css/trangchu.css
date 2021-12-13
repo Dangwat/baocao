@@ -202,9 +202,8 @@ li{
 /*trang chủ  "Đăng"*/
 .text-dang {
     text-align: center !important;
-
-    padding: 150px 0;
-    margin-top: 100px;
+    padding: 100px 0 50px 0;
+    margin-top: 80px;
     font-size: 40px;
 }
 
@@ -404,11 +403,14 @@ video {
 }
 
 .plance-heading {
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .plance-timember {
     opacity: 0.6;
+
 }
 
 .nav-item {
@@ -515,3 +517,24 @@ small{
     margin-left: 100px;
 }
 
+#mid span{
+    padding-left: 25px;
+    color: red;
+}
+
+#mid .plance-time {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 16px
+}  
+
+#mid .start {
+    color: yellow;
+    font-size: 12px;
+    text-align: end;
+}
+
+#mid .start span {
+    padding: 0;
+    color: #000;
+}
