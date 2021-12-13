@@ -105,21 +105,26 @@ header li:hover a{
 }
 .nav-bar{
     left: 0 !important;
+    font-weight: 160px;
 }
 
 /* sản phẩm sổ xuống */
 .nav-item{
     list-style: none;
+    
 }
 .dropdown{
     position: relative;
     display: inline-block;
+    
 }
 .dropdow-conten{
     display: none;
     position: absolute;
     z-index: 1;
-    background: #CCC;
+    background: rgb(19, 18, 18);
+    width: 200px;
+    
 }
 .dropdown:hover .dropdow-conten{
     display: block;
@@ -273,7 +278,7 @@ video {
 }
         /* transform grow  */
         
- /* .order-first {
+.order-first {
     display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -291,13 +296,13 @@ video {
  .order-first:hover, .order-first:focus, .order-first:active {
     -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
- } */
+ } 
         /* end transform grow  */
 
 
     /* transform wobble */
    
-.order-first {
+/* .order-first {
     display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -370,7 +375,7 @@ video {
       -webkit-transform: skew(0);
       transform: skew(0);
     }
-  }
+  } */
 
     /* end transform wobble */
 
@@ -410,9 +415,6 @@ video {
     margin:100px 0;
 }
 
-.contacnt h2 {
-    
-}
 
 .col{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -445,4 +447,7 @@ html {
 
 .trangcart{
     margin-top: 100px;
+}
+.bodysp {
+    background:#FEC6D9;
 }
