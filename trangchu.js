@@ -55,7 +55,7 @@ function showmycart(){
                 '<div>'+ tt +'</div>'+
             '</td>'+
             '<td>'+
-                '<button onlick= "xoasp(this)">Xóa</button>'+
+            '<button onclick= "xoasp(this)">Xóa</button>'+
             '</td>'+
         '</tr>';
         
@@ -77,11 +77,20 @@ function xoasp(x) {
     tr.remove();
     //xóa mảng
     for(let i = 0 ; i < giohang.length; i++){
-        if(giohang[i][2] == tensp){
+        if(giohang[i][2] == tensp) {
             giohang.splice(i, 1);
         } 
     }
     showmycart();
+    showcountsp();
+}
+//xoa tất cả
+function xoatatca(){
+    giohang = [];
+    showmycart();
+    showcountsp();
+
+
 }
 /*hiển thị giỏ hàng */
 function showcart(){
