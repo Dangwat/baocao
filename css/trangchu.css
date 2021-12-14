@@ -406,6 +406,11 @@ video {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: justify;
+}
+
+.plance-subheading {
+    font-size: 14px;
 }
 
 .plance-timember {
@@ -544,6 +549,7 @@ small{
     color: #000;
     text-decoration: none;
 }
+
 .chandangnhap{
     display: inline-block;
     
@@ -559,3 +565,38 @@ small{
     text-decoration: none;
     background-color: transparent;
 }
+
+/* hover */
+
+.btn-transform{
+    color: white;
+    background-color: #F0C50F;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    position:relative;
+    overflow: hidden;
+    z-index: 0;
+    -webkit-tap-highlight-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+  }
+
+  .btn-transform::before {
+      content: '';
+      position: absolute;
+      top: -30%;
+      left: -120%;
+      background-color: #fff9;
+      height: 150%;
+      width: 20%;
+      transform: rotate(25deg);
+      z-index: -1;
+  
+  }
+  
+  .btn-transform:hover::before {
+    left: 120%;
+    transition: all linear 0.3s;
+  }
+  
+
