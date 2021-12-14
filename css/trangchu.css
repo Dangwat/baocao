@@ -611,11 +611,17 @@ small{
 .phansp{
     font-family:Times New Roman;
 }
-.phansp h1{
-    padding: 20px 0px;
-    color: red;
-    font-weight: 700;
-}
+.phansp h1,h3{
+    color: black;
+    text-shadow: 3px 4px 6px red;
+    font-size:40px;
+    text-align:center;
+    /* text-shadow: 3px 3px 1px #333,
+      0 6px 8px rgba(0,0,0,.3),
+      0 9px 10px rgba(0,0,0,.15),
+      0 30px 10px rgba(0,0,0,.18),
+      0 14px 8px rgba(0,0,0,.6); */
+  }
 .phansp button{
     font-weight: 700;
     font-size: 15px;

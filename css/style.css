@@ -49,12 +49,6 @@ a {
     line-height: 40px;
 }
 
-h1 {
-    margin: 20px 0px;
-    font-size: 1.2vw;
-    color: #F60;
-}
-
 
 .boxtrai {
     float: left;
@@ -222,16 +216,18 @@ td img {
 
 .dongy {
     width: 150px;
-    border: 1px #F90 solid;
-    background-image: linear-gradient(#F90, #F60);
-    padding: 10px;
-    border-radius: 5px;
-    color: #FFF;
+    border: 1px #b2b6b2 solid;
+    background-image: linear-gradient(#bbb, rgb(243, 96, 96));
+    padding: 0px 3px 1px 3px;
+    border-radius: 10px;
+    color: rgb(59, 54, 31);
     font-weight: bold;
+    font-family: Verdana;
+    margin-left: 320px ;
 }
 
 .dongy:hover {
-    background-image: linear-gradient(#F30, #000);
+    background-image: linear-gradient(rgb(245, 125, 125), rgb(43, 40, 40));
 }
 #xoatatca {
     float: right;
