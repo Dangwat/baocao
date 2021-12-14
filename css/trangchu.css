@@ -561,7 +561,7 @@ small{
     -webkit-tap-highlight-color: transparent;
     border: none;
     cursor: pointer;
-    width: 120px;
+    width: 120px !important;
   }
 
   .btn-transform::before {
