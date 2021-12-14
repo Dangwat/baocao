@@ -513,8 +513,7 @@ small{
     text-decoration: none;
 }
 .qmk{
-    
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 #mid span{
@@ -545,5 +544,18 @@ small{
     color: #000;
     text-decoration: none;
 }
-
-  
+.chandangnhap{
+    display: inline-block;
+    
+}
+.chandangnhap a{
+    text-decoration: none;
+    color: tomato;
+}
+.chandangnhap1{
+    text-align: justify;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+}
