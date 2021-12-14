@@ -518,8 +518,7 @@ small{
     text-decoration: none;
 }
 .qmk{
-    
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 #mid span{
@@ -582,4 +581,47 @@ small{
     left: 120%;
     transition: all linear 0.3s;
   }
-  
+  .chandangnhap{
+    display: inline-block;
+    
+}
+.chandangnhap a{
+    text-decoration: none;
+    color: tomato;
+}
+.chandangnhap1{
+    text-align: justify;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+}
+  /* sản phẩm  */
+.mausp{
+    font-family:Times New Roman;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
+.maugia{
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+}
+.phansp{
+    font-family:Times New Roman;
+}
+.phansp h1{
+    padding: 20px 0px;
+    color: red;
+    font-weight: 700;
+}
+.phansp button{
+    font-weight: 700;
+    font-size: 15px;
+    font-family:Times New Roman;
+}
+
+
+
+
