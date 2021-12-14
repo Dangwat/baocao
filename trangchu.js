@@ -131,7 +131,9 @@ function showgiohang_trangthanhtoan(){
             '<th>'+
                 '<div>'+ tong +'VNĐ</div>'+
             '</th>'+
-    
+            '<th>'+
+                
+            '</th>'+
         '</tr>';
     document.getElementById("hmycart").innerHTML = ttgh;
 }
