@@ -202,8 +202,8 @@ li{
 /*trang chủ  "Đăng"*/
 .text-dang {
     text-align: center !important;
-    padding: 100px 0 50px 0;
-    margin-top: 80px;
+    padding: 100px 0 200px 0;
+    margin-top: 10px;
     font-size: 40px;
 }
 
@@ -627,7 +627,20 @@ small{
     font-size: 15px;
     font-family:Times New Roman;
 }
+#top  {
+    background-image:url(/data/images/trangchu/anh4.png);
+    background-position:top left;
+    background-size: 30rem;
+    background-repeat: no-repeat;
+   
+}
 
+.than {
+    background-image:url(/data/images/trangchu/anh7-removebg-preview.png) ;
+    background-position:center right;
+    background-repeat: no-repeat;
+    background-size: 30rem;
 
-
+    background-attachment: fixed;
+}
 
