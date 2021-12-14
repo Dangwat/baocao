@@ -64,6 +64,7 @@
                         </ul>
                        
                  
+<<<<<<< HEAD
                         <script>
                           function nhaprong(){
                               var arr = document.forms["formseach"];
@@ -77,6 +78,10 @@
                        <form action="sanpham.html" onsubmit="return nhaprong()" method="get" name="formseach">
                         <input  type="text" name="timkiem" onkeypress="return runScript(event)"placeholder="Bạn cần gì..."></form>
                             <!-- <i id="id2" class="fa fa-shopping-cart" onclick="window.location.href = 'cart.html'"></i> -->
+=======
+                            <input value="" placeholder="Bạn cần gì..."></input>
+                          
+>>>>>>> 87b988ef80d494ee72d25e957f9106d77cd3a0b6
                             <div class="car-sea">
                               <lord-icon
                               src="https://cdn.lordicon.com/msoeawqm.json" trigger="morph" colors="primary:#121331,secondary:#08a88a"
@@ -88,129 +93,86 @@
                             </lord-icon>
                             </div>
                             </header>
-                            <main class="trangcart">
+                            
+                            <main class="trangcart hinhanh">
+                              
                               <div class="container register">
+                                
                                 <div class="row">
                                     <div class="col-md-3 register-left">
                                         <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
                                         <h3>Welcome</h3>
-                                        <p>You are 30 seconds away from earning your own money!</p>
-                                        <input type="submit" name="" value="Login"/><br/>
+                                         <p>Chỉ Cần 30s nữa thôi bạn có thể mua sấm thoả thích</p> 
+                                        <a href="#"><input class="btn-transform"  type="submit" name="" value="Đăng Nhập"/><br/></a>
                                     </div>
                                     <div class="col-md-9 register-right">
-                                        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Employee</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Hirer</a>
-                                            </li>
-                                        </ul>
+                                       
                                         <div class="tab-content" id="myTabContent">
                                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                                <h3 class="register-heading">Apply as a Employee</h3>
+                                                <h3 class="register-heading">Vui Lòng Đăng Ký</h3>
                                                 <div class="row register-form">
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <input type="text" class="form-control" placeholder="First Name *" value="" />
+                                                            <input type="text" class="form-control" placeholder="Họ tên *" value="" />
                                                         </div>
                                                         <div class="form-group">
-                                                            <input type="text" class="form-control" placeholder="Last Name *" value="" />
+                                                            <input type="text" class="form-control" placeholder="Tên Đăng Nhập *" value="" />
                                                         </div>
                                                         <div class="form-group">
-                                                            <input type="password" class="form-control" placeholder="Password *" value="" />
+                                                            <input type="password" class="form-control" placeholder="Mật Khẩu *" value="" />
                                                         </div>
                                                         <div class="form-group">
-                                                            <input type="password" class="form-control"  placeholder="Confirm Password *" value="" />
+                                                            <input type="password" class="form-control"  placeholder="Nhập Lại Mật Khẩu *" value="" />
                                                         </div>
                                                         <div class="form-group">
                                                             <div class="maxl">
                                                                 <label class="radio inline"> 
                                                                     <input type="radio" name="gender" value="male" checked>
-                                                                    <span> Male </span> 
+                                                                    <span> Nam </span> 
                                                                 </label>
                                                                 <label class="radio inline"> 
                                                                     <input type="radio" name="gender" value="female">
-                                                                    <span>Female </span> 
+                                                                    <span>Nữ </span> 
                                                                 </label>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <input type="email" class="form-control" placeholder="Your Email *" value="" />
+                                                            <input type="email" class="form-control" placeholder=" Email *" value="" />
                                                         </div>
                                                         <div class="form-group">
-                                                            <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <select class="form-control">
-                                                                <option class="hidden"  selected disabled>Please select your Sequrity Question</option>
-                                                                <option>What is your Birthdate?</option>
-                                                                <option>What is Your old Phone Number</option>
-                                                                <option>What is your Pet Name?</option>
-                                                            </select>
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control" placeholder="Enter Your Answer *" value="" />
-                                                        </div>
-                                                        <input type="submit" class="btnRegister"  value="Register"/>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                                <h3  class="register-heading">Apply as a Hirer</h3>
-                                                <div class="row register-form">
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control" placeholder="First Name *" value="" />
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control" placeholder="Last Name *" value="" />
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <input type="email" class="form-control" placeholder="Email *" value="" />
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <input type="text" maxlength="10" minlength="10" class="form-control" placeholder="Phone *" value="" />
-                                                        </div>
-                
-                
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <input type="password" class="form-control" placeholder="Password *" value="" />
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <input type="password" class="form-control" placeholder="Confirm Password *" value="" />
+                                                            <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Số Điện Thoại *" value="" />
                                                         </div>
                                                         <div class="form-group">
                                                             <select class="form-control">
-                                                                <option class="hidden"  selected disabled>Please select your Sequrity Question</option>
-                                                                <option>What is your Birthdate?</option>
-                                                                <option>What is Your old Phone Number</option>
-                                                                <option>What is your Pet Name?</option>
+                                                                <option class="hidden"  selected disabled>Vui lòng chọn câu hỏi tuần tự của bạn</option>
+                                                                <option>Ngày sinh của bạn là gì?</option>
+                                                                <option>Số điện thoại cũ của bạn là gì?</option>
+                                                                <option>Tên con vật cưng của bạn là gì?</option>
                                                             </select>
                                                         </div>
                                                         <div class="form-group">
-                                                            <input type="text" class="form-control" placeholder="`Answer *" value="" />
+                                                            <input type="text" class="form-control" placeholder="Nhập câu trả lời của bạn *" value="" />
                                                         </div>
-                                                        <input type="submit" class="btnRegister"  value="Register"/>
+                                                       <input type="submit"  class="btnRegister" onclick="dangky()"  value="Đăng Ký"/>
                                                     </div>
                                                 </div>
                                             </div>
+                                          
                                         </div>
                                     </div>
                                 </div>
 
+
                             </main>
-
-
-
-
-
-
-
+                            <script>
+                              function dangky(){
+                               
+                     
+                                    alert("Đăng Ký Thành Công");
+                              }
+                              </script>
   <!--chân trang-->
   <div class="trangcuoi">
     <div class="container ">
@@ -294,6 +256,7 @@
   </div>
                               
                               </body>
+
 
 </html>
 <script src="./trangchu.js"></script>
