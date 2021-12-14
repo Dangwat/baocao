@@ -406,6 +406,11 @@ video {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: justify;
+}
+
+.plance-subheading {
+    font-size: 14px;
 }
 
 .plance-timember {
