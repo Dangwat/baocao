@@ -63,7 +63,18 @@
                         </ul>
                        
                  
-                            <input value="" placeholder="Bạn cần gì..."></input>
+                        <script>
+                          function nhaprong(){
+                              var arr = document.forms["formseach"];
+                              if(arr.timkiem.value.length == 0){
+                              alert("vui lòng nhập");
+                              arr.timkiem.focus();
+                              return false;}
+                            return true;
+                          }
+                        </script>
+                       <form action="sanpham.html" onsubmit="return nhaprong()" method="get" name="formseach">
+                        <input  type="text" name="timkiem" onkeypress="return runScript(event)"placeholder="Bạn cần gì..."></form>
                             <div class="car-sea">
                               <lord-icon
                               src="https://cdn.lordicon.com/msoeawqm.json" trigger="morph" colors="primary:#121331,secondary:#08a88a"
