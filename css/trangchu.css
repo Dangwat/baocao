@@ -611,7 +611,7 @@ small{
 .phansp{
     font-family:Times New Roman;
 }
-.phansp h1,h3{
+.phansp h1{
     color: black;
     text-shadow: 3px 4px 6px red;
     font-size:40px;
@@ -626,6 +626,12 @@ small{
     font-weight: 700;
     font-size: 15px;
     font-family:Times New Roman;
+}
+.chugiohang{
+    color: black;
+    text-shadow: 3px 4px 6px red;
+    font-size:40px;
+    text-align:center;
 }
 #top  {
     background-image:url(/data/images/trangchu/anh4.png);
