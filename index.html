@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html>
+    <head>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=delice-width, initial-scale=1" />
+        <link rel="icon" href="./logo-3.ico" type="img/x-icon">
+        <div>
+        <script src="/jaquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="fontawesome-free\css\brands.min.css">
+        <link rel="stylesheet" href="fontawesome-free\css\all.min.css">
+        <link rel="stylesheet" href="css/trangchu.css"/>
+        <script type="text/javascript" src="/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+        <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+      </div>
+        <title>ThreeBoy</title>
+    
+    </head>
+    
+    <body>
+            
+            <header id="header-top">
+                <nav class="navbar navbar-expand-lg navbar-light my-2 btn ">
+                    <div class="container-fluid" class="nav-bar">
+                        
+                      <a class="navbar-brand nav-item" href="index.html"><img  src="./logo-3.png" >ThreeBoy</a>
+                      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html"> <lord-icon
+                            src="https://cdn.lordicon.com/gmzxduhd.json"
+                            trigger="loop"
+                            colors="primary:#000000,secondary:#000000"
+                            stroke="63"
+                            scale="60"
+                            style="width:50px;">
+                        </lord-icon>Home</a></li>
+
+                            <!-- xổ xuống -->
+                          <li class="nav-item dropdown"><a class="nav-link " href="sanpham.html" id="navbarDropdown">Sản phẩm<i style="padding: 5px;" class="fas fa-sort-down"></i></a>
+                            <div class="dropdow-conten">
+                              <a class="dropdown-item" href="ao.html">áo</a>
+                              <a class="dropdown-item" href="quan.html">quần</a>
+                              <a class="dropdown-item" href="giay.html">giầy</a>
+                              
+                            </div>
+                          </li>
+                              
+                          <!-- end xổ-->
+
+                          <li class="nav-item"><a class="nav-link active " aria-current="page" href="tintuc.html">Tin tức</a>
+                          </li>
+                          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#mid">Mới</a></li>
+
+                          
+                        </ul>
+                       
+                 
+                            <input value="" placeholder="Bạn cần gì..."></input>
+                            <div class="car-sea">
+                              <lord-icon
+                              src="https://cdn.lordicon.com/msoeawqm.json" trigger="morph" colors="primary:#121331,secondary:#08a88a"
+                              >
+                              </lord-icon>
+                              <lord-icon id="id2" onclick="window.location.href = 'cart.html'"
+                              src="https://cdn.lordicon.com/slkvcfos.json" trigger="hover" colors="primary:#121331,secondary:#08a88a"  >
+                            
+                            </lord-icon>
+                            </div>
+                       
+
+                      </div>
+                    </div>
+                    <!--dang nhap-->
+                    <div class="btn-group dropleft ">
+                      <button class="btn btn-secondary  dropdown-toggle"
+                         type="button"
+                         id="dropdownMenuButton" data-toggle="dropdown">
+                      Login
+                      </button>
+                      <div class="dropdown-menu ">
+                         <form class="px-4 py-3">
+                            <div class="form-group">
+                              <label for="exampleDropdownFormEmail1">Email</label>
+                               <input type="email" class="form-control"
+                                  id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                            </div>
+                            <div class="form-group">
+                               <label for="exampleDropdownFormPassword1">Mật Khẩu</label>
+                               <input type="password" class="form-control"
+                                  id="exampleDropdownFormPassword1" placeholder="*********">
+                            </div>
+                            <div class="form-check">
+                               <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                               <label class="form-check-label" for="dropdownCheck">
+                               Nhớ Đăng Nhập
+                               </label>
+                            </div class="">
+                            <button type="submit" class="btn btn-primary btn1">Đăng Nhập</button>
+                            <button type="submit" class="btn btn-primary">Đăng ký</button>
+                            <a class="qmk" href="#"><small> Quên Mật Khẩu</small></a>
+                           <div class="dangnhap1"> <span>Hoặc</span></div>
+                           <div class="dangnhap2">
+                           <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i> <small>Đăng Nhập Bằng Facebook</small></a>
+
+                           <a href=https://contacts.google.com/?hlEN><i class="fa fa-google" aria-hidden="true"></i> <small>Đăng Nhập Bằng Google</small></a>
+      
+                          </div>
+                         </form>
+                         <div class="dropdown-divider"></div>
+                         <a class="dropdown-item" href="#">New around here? Sign up</a>
+                         <a class="dropdown-item" href="#">Forgot password?</a>
+                      </div>
+                   </div>
+                </nav>
+        </header>
+              <!-- phần thân-->
+              
+        <div class="vid">
+          <video autoplay loop muted src="./data/video1.mp4"></video>
+        </div>
+        <main class="than">
+            <!-- phần phổ biến -->
+                <div id="top" class="contacnt">
+
+                  <h2 class="text-center text-dang ">SẢN PHẨM PHỔ BIẾN</h2>
+                  <div class="container">
+                    <div class="row">
+
+                      <div class="container px-4">
+
+
+                        <div class="row gx-5">
+
+                            <div class="col">
+                            <div class="p-3 border bg-light"><span class="plance-heading">Giầy gold </span> 
+                              <a href="/ao.html"><img width="50%"  src="./data/images/giầy/giay1.jpg" alt=""></a>
+                            </div>
+                            </div>
+                            <div class="col">
+                              <div class="p-3 border bg-light"><span class="plance-heading">quần jean</span> 
+                                <a href="/ao.html"><img width="50%"  src="./data/images/quần/quan1.jpg" alt=""></a>
+                              </div>
+                            </div>
+
+                        </div>
+                      
+
+                      </div>
+                  </div>
+                </div>
+
+                <!-- phần mới -->
+              
+                <div id="mid" class="contacnt">
+                  <h2 class="text-center text-dang">SẢN PHẨM MỚI</h2>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col order-first">
+                        <a href="./sanpham.html"><img width="100%"  src="./data/images/giầy/giay4.jpg" alt=""></a>
+                        <div class="place-body">
+                          <h3 class="plance-heading">giầy thể thao</h3>
+                          <p class="plance-time"><del>200.000 đ</del><span>150.000đ</span></p>
+                          <div class="start">
+                             <i class="fas fa-star"></i> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>79 đã bán</span> </p>
+                            </div>
+
+                        
+                        
+                        </div>
+                      </div>
+                      <div class="col order-first">
+                        <a href="./sanpham.html"><img width="100%"  src="./data/images/áo/ao5.jpg" alt=""></a>
+                        <div class="place-body">
+                          <h3 class="plance-heading">giầy thể thao</h3>
+                          <p class="plance-time"><del>200.000 đ</del><span>150.000đ</span></p>
+                          <div class="start">
+                             <i class="fas fa-star"></i> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>79 đã bán</span> </p>
+                            </div>
+
+                        
+                        
+                        </div>
+                      </div>
+
+                      <div class="col order-first">
+                        <a href="./sanpham.html"><img width="100%"  src="./data/images/quần/quan1.jpg" alt=""></a>
+                        <div class="place-body">
+                          <h3 class="plance-heading">giầy thể thao</h3>
+                          <p class="plance-time"><del>200.000 đ</del><span>150.000đ</span></p>
+                          <div class="start">
+                             <i class="fas fa-star"></i> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>79 đã bán</span> </p>
+                            </div>
+
+                        
+                        
+                        </div>
+                      </div>
+
+                      <div class="col order-first">
+                        <a href="./sanpham.html"><img width="100%"  src="./data/images/giầy/giay3.jpg" alt=""></a>
+                        <div class="place-body">
+                          <h3 class="plance-heading">giầy thể thao</h3>
+                          <p class="plance-time"><del>200.000 đ</del><span>150.000đ</span></p>
+                          <div class="start">
+                             <i class="fas fa-star"></i> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>79 đã bán</span> </p>
+                            </div>                   
+                        </div>
+                      </div>
+
+                      <div class="col order-first">
+                        <a href="./sanpham.html"><img width="100%"  src="./data/images/quần/quan11.jpg" alt=""></a>
+                        <div class="place-body">
+                          <h3 class="plance-heading">giầy thể thao</h3>
+                          <p class="plance-time"><del>200.000 đ</del><span>150.000đ</span></p>
+                          <p class="plance-content">
+                            <div class="start">
+                             <i class="fas fa-star"></i> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span>79 đã bán</span> </p>
+                            </div>
+                        </div>
+                      </div>
+                    
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Tin tức -->
+                <div class="container trangcuoi">
+                  <h2 class="text-center ">TIN TỨC</h2>
+                  <div class="row g-2">
+                    <div class="col-6">
+                      <div class="p-3 border bg-light">
+                        <div class="col order-first">
+                          <a href="https://cafebiz.vn/huyen-thoai-gay-can-giua-adidas-va-puma-tu-anh-em-ruot-thit-den-ke-thu-khong-doi-troi-chung-chia-cat-ca-mot-thi-tran-suot-70-nam-20200822074805231.chn"><img width="100%"  src="./data/images/tintuc/anh1.jpg" alt="">
+                          <div class="place-body">
+                            <h3 class="plance-heading">Huyền thoại gay cấn giữa Adidas và Puma: Từ anh em ruột thịt đến kẻ thù .</h3>
+                          </a>  
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="p-3 border bg-light">
+                        <div class="col order-first">
+                          <a href="https://vnexpress.net/karl-lagerfeld-huyen-thoai-cua-chanel-qua-doi-o-tuoi-85-3883447.html"><img width="100%"  src="./data/images/tintuc/anh2.jpg" alt="">
+                          <div class="place-body">
+                            <h3 class="plance-heading">Giám đốc sáng tạo  Karl Lagerfeld - huyền thoại của Chanel - qua đời ở tuổi 85 </h3>
+                          </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="p-3 border bg-light">
+                        <div class="col order-first">
+                          <a href="http://nuk.vn/dien-nguyen-cay-do-hieu-ca-tram-trieu-khoa-pug-tu-nhan-phen-van-hoan-phen/"><img width="100%"  src="./data/images/tintuc/anh5.png" alt="">
+                          <div class="place-body">
+                            <h3 class="plance-heading">Diện nguyên cây đồ hiệu cả trăm triệu, Khoa Pug tự nhận… phèn vẫn hoàn phèn</h3>
+                          </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="p-3 border bg-light"><div class="col order-first">
+                        <a href="./sanpham.html"><img width="100%" height="330px" src="./data/images/tintuc/anh6.jpg" alt="">
+                        <div class="place-body">
+                          <h3 class="plance-heading">G Dragon bắt tay 'hồi sinh' thương hiệu đình đám Kappa vào đầu hè năm nay</h3>
+                        </a>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!--chân trang-->
+              <div class="trangcuoi">
+                <div class="container ">
+                  <footer class="py-5">
+                      <div class="row">
+                          <div class="col-2">
+                            <h5>THÔNG TIN CÔNG TY</h5>
+                              <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"> giới thiệu về Three Boy </a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Chương Trình</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sale</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Thời Trang</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sự Kiện</a></li>
+                              </ul>
+                          </div>
+                          
+                          <div class="col-2">
+                            <h5>HỖ TRỢ KHÁCH HÀNG</h5>
+                              <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Phí Vận Chuyển</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trả Lại</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hướng Dẫn Đặt Hàng</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Làm Thế Nào Để Theo Dỗi</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hướng Dẫn Kích Thước</a></li>
+                              </ul>
+                          </div>
+                          
+                          <div class="col-2">
+                            <h5>DỊCH VỤ KHÁCH HÀNG</h5>
+                              <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Liên Hệ Chúng Tôi</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Phương Thức Thanh Toán</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Điểm Thưởng</a></li>
+                                  
+                              </ul>
+                          </div>
+                          
+                          <div class="col-4 offset-1">
+                            <div class="d-flex justify-content-between py-4 my-4 border-top">
+                                <ul class="list-unstyled d-flex">
+                                  <li class="ms-3"><a href="https://twitter.com/?lang=vi"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+                                  <li class="ms-3"><a  href="https://www.instagram.com/"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+                                  <li class="ms-3"><a class="link-dark" href="https://www.facebook.com/"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+                                </ul>
+                          
+                              <!--icon liên hệ -->
+                              <svg xmlns="http://www.facebook.com/" style="display: none;">
+                                <symbol id="bootstrap" viewBox="0 0 118 94">
+                                  <title>Bootstrap</title>
+                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
+                                </symbol>
+                                <symbol id="facebook" viewBox="0 0 16 16">
+                                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                
+                                </symbol>
+                                <symbol id="instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                                </symbol>
+                                <symbol id="twitter" viewBox="0 0 16 16">
+                                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                </symbol>
+                              </svg>
+                              <a id="vdt" target="_top" href="threeboy.html"><img src="data/images/vedautrang.png" alt=""width="50"
+                                height="45"></a></p>
+                        </div>
+                            <form>
+                              <h5>Theo dõi bản tin của chúng tôi</h5>
+                              <p>Thông báo hàng tháng về những gì mới và thú vị từ chúng tôi.</p>
+                              <div class="d-flex w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <button class="btn btn-primary" type="button">Subscribe</button>
+                              </div>
+                            </form>
+                          </div>
+                      </div>
+                          
+                      
+                    </footer>
+                </div>
+              </div>
+        </main>   
+    
+    
+         
+         
+  </body>
+</html>
+
+
+    <!-- link js -->
+<div>
+
+  <script src="trangchu.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </div>

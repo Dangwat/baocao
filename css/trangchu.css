@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?wght@1,300&family=Indie+Flower=swap');
 html, body{
-    font-family:Arial, Helvetica, sans-serif!important;
+    font-family:Verdana;
     font-size: 16px;
 }
 #se{
@@ -90,7 +90,8 @@ td img {
     z-index: 100; 
 }
 header li:hover a{
-    background: #ccc;
+    background: white;
+    border-radius: 5px;
     
 }
 #vdt{
@@ -122,9 +123,8 @@ header li:hover a{
     display: none;
     position: absolute;
     z-index: 1;
-    background: rgb(19, 18, 18);
+    background: rgb(255, 255, 255);
     width: 200px;
-    
 }
 .dropdown:hover .dropdow-conten{
     display: block;
@@ -200,12 +200,11 @@ li{
     text-align: center;
 }
 /*trang chủ  "Đăng"*/
-.text-center {
+.text-dang {
     text-align: center !important;
-    padding: 130px 0 50px 0px;
-    font-size: 50px;
-    
-
+    padding: 100px 0 50px 0;
+    margin-top: 80px;
+    font-size: 40px;
 }
 
 .row1 {
@@ -404,11 +403,14 @@ video {
 }
 
 .plance-heading {
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .plance-timember {
     opacity: 0.6;
+
 }
 
 .nav-item {
@@ -427,7 +429,9 @@ video {
 
 
 
-.cuoitrang {
+
+
+.trangcuoi {
      border-top: 2px solid #000;
      margin-top: 20px;
 }
@@ -513,3 +517,33 @@ small{
     margin-left: 100px;
 }
 
+#mid span{
+    padding-left: 25px;
+    color: red;
+}
+
+#mid .plance-time {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 16px
+}  
+
+#mid .start {
+    color: yellow;
+    font-size: 12px;
+    text-align: end;
+}
+
+#mid .start span {
+    padding: 0;
+    color: #000;
+}
+
+/* TIN TỨC */
+
+.bg-light a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+  
