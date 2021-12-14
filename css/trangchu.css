@@ -90,7 +90,8 @@ td img {
     z-index: 100; 
 }
 header li:hover a{
-    background: #ccc;
+    background: white;
+    border-radius: 5px;
     
 }
 #vdt{
@@ -122,9 +123,8 @@ header li:hover a{
     display: none;
     position: absolute;
     z-index: 1;
-    background: rgb(19, 18, 18);
+    background: rgb(255, 255, 255);
     width: 200px;
-    
 }
 .dropdown:hover .dropdow-conten{
     display: block;
@@ -545,3 +545,5 @@ small{
     color: #000;
     text-decoration: none;
 }
+
+  
