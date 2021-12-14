@@ -122,7 +122,7 @@ function showgiohang_trangthanhtoan(){
                 '<div>'+ tt +'</div>'+
             '</td>'+
             '<td>'+
-                '<button onlick= "xoasp(this)">Xóa</button>'+
+                '<button onclick= "xoasp(this)">Xóa</button>'+
             '</td>'+
         '</tr>';
     }
