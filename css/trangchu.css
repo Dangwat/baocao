@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?wght@1,300&family=Indie+Flower=swap');
 html, body{
-    font-family:Arial, Helvetica, sans-serif!important;
+    font-family:Verdana;
     font-size: 16px;
 }
 #se{
@@ -200,8 +200,11 @@ li{
     text-align: center;
 }
 /*trang chủ  "Đăng"*/
-.text-center {
+.text-dang {
     text-align: center !important;
+    padding: 100px 0 50px 0;
+    margin-top: 80px;
+    font-size: 40px;
 }
 
 .row1 {
@@ -400,11 +403,14 @@ video {
 }
 
 .plance-heading {
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .plance-timember {
     opacity: 0.6;
+
 }
 
 .nav-item {
@@ -423,7 +429,9 @@ video {
 
 
 
-.container-footer {
+
+
+.trangcuoi {
      border-top: 2px solid #000;
      margin-top: 20px;
 }
@@ -509,3 +517,31 @@ small{
     margin-left: 100px;
 }
 
+#mid span{
+    padding-left: 25px;
+    color: red;
+}
+
+#mid .plance-time {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 16px
+}  
+
+#mid .start {
+    color: yellow;
+    font-size: 12px;
+    text-align: end;
+}
+
+#mid .start span {
+    padding: 0;
+    color: #000;
+}
+
+/* TIN TỨC */
+
+.bg-light a:hover {
+    color: #000;
+    text-decoration: none;
+}
