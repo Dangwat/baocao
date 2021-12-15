@@ -270,14 +270,13 @@ li{
 video {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 480px;
     transform: translate(-50%,-50%);
     background-size: cover;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    display: inline-block;
+    z-index: 1;
+    width: 100%;
+   
+    display: block;
 }
         /* transform grow  */
         
@@ -445,7 +444,7 @@ html {
     background:#FEC6D9;
 }
 #header-top {
-    position:fixed;
+    
     top: 0;
     left: 0;
     right: 0;
@@ -522,7 +521,7 @@ small{
 }
 
 #mid span{
-    padding-left: 25px;
+    padding-left: 15px;
     color: red;
 }
 
@@ -648,6 +647,48 @@ small{
     background-size: 30rem; 
     background-attachment: fixed;
 }
+ /* pc */
+ @media (min-width:64em) {
+   
+    
+}
+/* tablet */
+@media (min-width:46.25em) and (max-width:63.9375em){
+    .vid {
+        width: 80%;
+        top:50px
+    }
+    .than {
+        margin-top: 600px;
+    }
+}
+/* phone */
+@media (max-width:46.1875em) {
+    video {
+        width:100%;
+        top:130px
+
+    }
+
+    .than {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .plance-heading {
+        font-size: 17px;
+    }    
+
+    .plance-heading {
+        font-size: 10px;
+        text-align: none;
+    }
+
+   
+
+}
+
+
 
 
 /* Dangky */
