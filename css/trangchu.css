@@ -14,21 +14,17 @@ html, body{
     position: fixed;
     border-radius: 10px ;
     right: 5px;
-    top: 5px;
-    background: #ced4da;
-    
+    top: 5px;    
     padding: 5px;
 }
-.giohang img{
-    width: 40px;
-    margin-right: 5px;
-}
+
 .giohang span{
+    margin-bottom: 0px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 25px;
     color: rgb(29, 23, 23);
     height: 60px;
-    line-height: 60px;
+    line-height: 90px;
 }
 
 #showcart{
@@ -492,11 +488,7 @@ small{
     font-size: 17px;
     
     background: #ffffff80;
-    padding: 2px 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-right: 4;
-    padding-left: 4;
+    padding: 0 15px;
     border-top: 1px;
     border-bottom:1px;
     border-left: 1px;
@@ -517,7 +509,7 @@ small{
     text-decoration: none;
 }
 .qmk{
-    margin-left: 200px;
+    width: 100%;
 }
 
 #mid span{
@@ -582,6 +574,7 @@ small{
 }
   .chandangnhap{
     display: inline-block;
+    padding: 0 15px;
     
 }
 .chandangnhap a{
@@ -682,6 +675,11 @@ small{
     .plance-heading {
         font-size: 10px;
         text-align: none;
+    }
+
+    .dropleft .menu-login {
+       
+        margin-right: -13rem !important;
     }
 
    
@@ -792,6 +790,12 @@ small{
     margin-top: 100px;
 }
 
-  
+.login-container {
+    width: 300px;
+    
+}
 
-
+.menu-login {
+    margin-top: 0;
+    margin-top: 37px !important;
+}
