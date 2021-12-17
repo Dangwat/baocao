@@ -34,15 +34,14 @@
                       </button>
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html"> 
-                          <lord-icon
+                          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html"> <lord-icon
                             src="https://cdn.lordicon.com/gmzxduhd.json"
                             trigger="loop"
                             colors="primary:#000000,secondary:#000000"
                             stroke="63"
                             scale="60"
                             style="width:50px;">
-                          </lord-icon>Home</a></li>
+                        </lord-icon>Home</a></li>
 
                             <!-- xổ xuống -->
                           <li class="nav-item dropdown"><a class="nav-link " href="sanpham.html" id="navbarDropdown">Sản phẩm<i style="padding: 5px;" class="fas fa-sort-down"></i></a>
@@ -74,31 +73,19 @@
                             return true;
                           }
                         </script>
-                      
-                            <div class="content">
-                              <div class="content1">
-                                  <form action="sanpham.html" onsubmit="return nhaprong()" method="Get" name="formseach">
-                                    <input  type="text" name="timkiem" onkeypress="return runScript(event)" placeholder="Bạn cần gì..."></div>
-                                    <div>
-                                    <div class="car-sea">
-                                      
-                                      <button class="btn-search">
-                                        
-                                        <lord-icon onclick="sanpham() "
-                                        src="https://cdn.lordicon.com/msoeawqm.json" id="tim" trigger="morph" colors="primary:#121331,secondary:#08a88a"
-                                        >
-                                        </lord-icon>
-                                      </button>
+                       <form action="sanpham.html" onsubmit="return nhaprong()" method="get" name="formseach">
+                        <input  type="text" name="timkiem" onkeypress="return runScript(event)"placeholder="Bạn cần gì..."></form>
+                            <div class="car-sea">
+                              <lord-icon
+                              src="https://cdn.lordicon.com/msoeawqm.json" trigger="morph" colors="primary:#121331,secondary:#08a88a"
+                              >
+                              </lord-icon>
+                              <lord-icon id="id2" onclick="window.location.href = 'cart.html'"
+                              src="https://cdn.lordicon.com/slkvcfos.json" trigger="hover" colors="primary:#121331,secondary:#08a88a"  >
+                            
+                            </lord-icon>
 
-                                        <lord-icon id="id2" onclick="window.location.href = 'cart.html'"
-                                        src="https://cdn.lordicon.com/slkvcfos.json" trigger="hover" colors="primary:#121331,secondary:#08a88a"  >
-                                      
-                                      </lord-icon>
-                                      
-                                    </div>
-                                  </form>
-                                </div>
-                              </div>
+                            </div>
 
                             <!-- đăng nhập -->
                             
