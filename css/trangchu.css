@@ -799,3 +799,16 @@ small{
     margin-top: 0;
     margin-top: 37px !important;
 }
+
+.content{
+    display: flex;
+    
+}
+.content1{
+    margin-top: 18px;
+}
+
+.btn-search {
+    border: none;
+    background-color: transparent;
+}
