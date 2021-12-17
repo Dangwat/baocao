@@ -149,6 +149,7 @@ function dongydathang() {
     var nguoinhan = new Array(hoten, diachi, dienthoai, email);
 
     sessionStorage.setItem("nguoinhan", JSON.stringify(nguoinhan));
+    alert("Đặt Hàng Thành Công");
 
     window.location.assign("donhang.html");
 }
