@@ -151,6 +151,7 @@ function dongydathang() {
     sessionStorage.setItem("nguoinhan", JSON.stringify(nguoinhan));
 
     window.location.assign("donhang.html");
+    alert('đặt hàng thành công')
 }
 function showthongtinnguoinhan() {
     var nguoinhan=sessionStorage.getItem("nguoinhan");
@@ -173,4 +174,30 @@ function showthongtinnguoinhan() {
         '<td>'+thongtin[3]+'</td>'+
     '</tr>';
     document.getElementById("thongtinnhanhang").innerHTML=tt;
+}
+
+
+  // XỬ LÝ Ô TÌM KIẾM 
+
+
+  function runScript(e) {
+    if (e.keyCode == 32) {
+        var tb = document.getElementById("scriptBox");
+        eval(tb.value);
+        return false;
+    }
+}
+
+var btn=document.getElementById('tim')
+btn.onclick=function(){
+}
+
+function nhaprong(){
+    var arr = document.forms['formseach'];
+    if(arr.timkiem.value.length == 0){
+        alert("Không được rỗng");
+        arr.timkiem.focus();
+        return false;
+    }
+    return true;
 }
